@@ -1,0 +1,12 @@
+.main2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0px !important;
+    width: 50%;
+}

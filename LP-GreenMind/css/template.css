@@ -1,0 +1,36 @@
+.fixado{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+#espacamento{
+    height: 22vh;
+}
+
+/* Nav */
+
+nav{
+    height: 10vh;
+}
+
+nav a {
+    font-size: 20px !important;
+}
+
+.navbar{
+    flex-wrap: nowrap !important;
+}
+
+.navbar-nav{
+    flex-direction: row !important;
+}
+
+/* Footer */
+
+footer{
+    height: 30vh;
+}
+
+.fita{text-align: center;}
+

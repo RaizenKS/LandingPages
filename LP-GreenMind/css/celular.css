@@ -1,0 +1,48 @@
+@media screen and (max-width:768px) {
+    .titulo {
+        font-size: 1rem !important;
+    }
+    .paragrafo{
+        font-size: 0.7rem !important;
+    }
+
+    nav a {
+        font-size: 15px !important;
+    }
+
+    /* Primeiro article do main */
+
+.article1{
+    background-image: url("../imagens/greenIcon.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    width: 100% !important;
+    position: relative;
+}
+
+.article2{
+    width: 100%;
+}
+
+.section1 h1{
+    font-size: 2rem !important;
+}
+
+.section1 h2{
+    font-size: 1.7rem;
+}
+
+.section1 i{
+    font-size: 5rem;
+}
+
+.footer-links{
+    display: none;
+}
+
+.infos h5{
+    font-size: 0.7rem;
+}
+}
+

@@ -1,0 +1,144 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box; font-family: "Montserrat", sans-serif;}
+
+/* Outros */
+.overlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5) ;
+}
+
+/* Header */
+
+header{
+    min-height: 10vh;
+}
+
+
+/* Nav */
+
+nav{
+    position: relative !important;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    height: 20vh;
+}
+
+nav a{
+    font-size: 1.3rem !important;
+    font-weight: bold;
+}
+/* Main */
+
+main{
+    background-image: url("/assets/imagens/pizza-foto1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 70%;
+    height: 100vh;
+    transition: 0.5s;
+}
+
+main button{
+    border: none;
+    background-color: transparent;
+    font-size: 2.5rem ;
+    position: relative;
+    z-index: 2;
+}
+
+#arrow-right{top: 60%; left: 85%; width: max-content;}
+#arrow-left{top: 60%; left: 10%; width: max-content;}
+
+main h1{
+    font-weight: bold;
+    font-size: 3.5rem;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+main h2{
+    font-weight: bolder;
+    font-size: 2rem;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Section 1 */
+
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec1 h2{
+    font-size: 2rem;
+    width: max-content;
+    border-bottom: 5px solid rgb(206, 54, 54);
+    border-radius: 10%;
+}
+
+.sec1 .art-textos{
+    width: 70%;
+}
+
+/* Section 2 */
+
+.b-img{
+    margin: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 205px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.sec2 .b-img img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.artigos{
+    margin: 0px 10px;
+}
+
+.artigos h6{
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Section 3 */
+
+.sec3{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec3 h4{
+    font-size: 1.2rem;
+}
+
+.sec3 article{
+    width: 33%;
+    height: 100px;
+    margin:5px 10px;
+}
+
+.article1{border-right: 3px solid rgb(206, 54, 54)}
+.article2{border-right: 3px solid rgb(206, 54, 54)}
+
+
